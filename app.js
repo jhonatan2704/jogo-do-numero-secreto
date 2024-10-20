@@ -1,7 +1,7 @@
 alert('Seja bem vindo(a) ao jogo do número secreto')
 let nome = prompt('Qual seu nome?')
 let nome1 = nome.toLocaleLowerCase()
-let maiornumero = 0
+let maiornumero = 100
 let numeroSecreto = parseInt(Math.random() * maiornumero + 1)
 
 console.log(numeroSecreto)
