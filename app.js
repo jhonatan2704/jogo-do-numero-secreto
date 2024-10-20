@@ -26,11 +26,10 @@ if(chute == numeroSecreto){
     };
     tentativas++
 }}
-    let nomeespecial = 'jhonatan';
+    let nomeespecial = 'diego';
 let nomeespecial1 = nomeespecial.toLocaleLowerCase();
 let palavratentativa = tentativas > 1? 'tentantivas' : 'tentativa';
 if(nome1 == nomeespecial1){
-    alert(`Parabéns, ${nome1}! você acertou o número secreto ${numeroSecreto} com ${tentativas} ${palavratentativa}. Abrance sua irma
-        `)
+    alert(`Parabéns, ${nome1}! você acertou o número secreto ${numeroSecreto} com ${tentativas} ${palavratentativa}. Abrance sua mãe`)
 } else{
 alert(`Parabéns, ${nome1}! você acertou o número secreto ${numeroSecreto} com ${tentativas} ${palavratentativa}`)};
